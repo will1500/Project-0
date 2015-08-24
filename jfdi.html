@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script language="javascript" type="text/javascript">
+function randomString() {
+	var chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";
+	var string_length = 8;
+	var randomstring = '';
+	for (var i=0; i<string_length; i++) {
+		var rnum = Math.floor(Math.random() * chars.length);
+		randomstring += chars.substring(rnum,rnum+1);
+	}
+	document.randform.randomfield.value = randomstring;
+}
+</script>
+
+	<meta charset="UTF-8">
+	<title>Kyrel</title>
+	<link rel="stylesheet" type="text/css" href="jfdi.css">
+	<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js'></script>
+	<script type="text/javascript" src='jfdi.js'></script>
+</head>
+<body>
+  <center>
+    <h2>  </h2>
+  </center>
+><br/> 
+14	</div> 
+ 
+<FORM>
+<INPUT Type="button" VALUE="Reload Page" onClick="history.go(0)">
+<!-- resets page -->
+<form name="randform">
+<input type="button" value="Create Random String" onClick="randomString();">&nbsp;
+<input type="text" name="randomfield" value="">
+</form>
+ 
+ <div class="CSSTableGenerator" >
+                <table id="table">
+                	
+    
+                   
+                    <tr>
+                        <td> 
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        <td>
+                          
+                        </td>
+              
+                    </tr>
+                    <tr>
+                    	<div> <span class="track" id='player'>:)</span></div>
+                    	<!-- player 1 -->
+                     <!-- This is row 1 -->
+                        <td class="r1" >
+                             "l"
+                           
+                            
+                        </td>
+                           <!-- This is row 2 -->
+                        <td class= "r2">
+                         
+                        </td>
+                        <!-- This is row 3 -->
+                        <td class="r3">
+                          
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            
+                             <div> <span id='player2'>:D</span></div>
+                        </td>
+                        <td>
+                          
+                        </td>
+                        <td>
+                          
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+  </center>
+
+</body>
+</html>
+
